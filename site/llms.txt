@@ -1,0 +1,23 @@
+# Powrush
+
+> Powrush is a game from Autonomicity Games. If you only take, the glow fades. If you allocate, the climate comes back. The current build is offline and single-player, and it is in active development. Online play is not live. There is no Steam page and no release date. It is not a public launch candidate. This site is https://powrush.com. The company site is https://acitygames.com.
+
+## Pages
+
+- Home: https://powrush.com/
+- World: https://powrush.com/world.html
+- Systems: https://powrush.com/systems.html
+- Play: https://powrush.com/play.html
+
+## Status
+
+- Play is coming later. Online play is not available.
+- One human, one machine. Offline first. Title Online stays grey.
+- The yard is the universe at the scale of a well. The wider story wears five peoples and a stone.
+- Walk a climate. Harvest with mercy. Learn a resource-based economy by playing. The lesson is in the hands. It is a teaching, not a wage.
+- Repository: https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO
+
+## Contact
+
+- info@Rathor.ai
+- Independent of xAI.

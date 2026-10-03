@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Systems — Powrush</title>
+  <meta name="description" content="Systems in the Powrush-MMO default client on main today. Offline first. Title Online stays grey. Each system cites its source file.">
+  <meta name="theme-color" content="#12110e" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f4f1ea" media="(prefers-color-scheme: light)">
+  <link rel="canonical" href="https://powrush.com/systems.html">
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <script>
+    (function () {
+      var theme = "dark";
+      try {
+        var stored = localStorage.getItem("powrush-theme");
+        if (stored === "light" || stored === "dark") theme = stored;
+        else if (window.matchMedia("(prefers-color-scheme: light)").matches) theme = "light";
+      } catch (e) {}
+      document.documentElement.setAttribute("data-theme", theme);
+    })();
+  </script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="brand" href="index.html">Powrush</a>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li><li><a href="world.html">World</a></li><li><a href="systems.html" aria-current="page">Systems</a></li><li><a href="play.html">Play</a></li><li><a href="https://acitygames.com/" rel="noopener noreferrer" target="_blank">Company<span class="sr-only"> (opens in a new tab)</span></a></li>
+        </ul>
+        <button type="button" class="theme-toggle" id="theme-toggle" hidden aria-pressed="false" aria-label="Switch to light mode">
+          <span class="theme-toggle-icons" aria-hidden="true">
+            <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" focusable="false">
+              <circle cx="12" cy="12" r="4.1"></circle>
+              <path d="M12 2.6v2.2M12 19.2v2.2M4.8 4.8l1.6 1.6M17.6 17.6l1.6 1.6M2.6 12h2.2M19.2 12h2.2M4.8 19.2l1.6-1.6M17.6 6.4l1.6-1.6" fill="none"></path>
+            </svg>
+            <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" focusable="false">
+              <path d="M15.2 3.4A8.2 8.2 0 1 0 20.6 14 6.4 6.4 0 0 1 15.2 3.4z"></path>
+            </svg>
+          </span>
+        </button>
+      </nav>
+    </div>
+  </header>
+  <main id="content" tabindex="-1">
+    
+    <figure class="hero">
+      <div class="hero-media">
+        <img class="op-systems" src="images/art/systems-human-frontier-base-1500.webp" srcset="images/art/systems-human-frontier-base-768.webp 768w, images/art/systems-human-frontier-base-1500.webp 1500w" sizes="100vw" width="1500" height="844" alt="Aerial view of a frontier base of timber-and-metal buildings with green roofs and banners, a glowing circular pad, a garage holding an off-road vehicle, and uniformed people on dirt paths beside a river." decoding="async" fetchpriority="high" loading="eager">
+        <div class="hero-scrim" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <div class="wrap">
+            <p class="kicker">On main today</p>
+            <h1>Systems</h1>
+            <p class="lede">One human, one machine. Offline first. Title Online stays grey.</p>
+          </div>
+        </div>
+      </div>
+      <figcaption><div class="wrap">Painted art. Not a screenshot of the current offline build.</div></figcaption>
+    </figure>
+    <div class="sheet-wrap">
+      <div class="wrap sheet">
+        <h2>The lived hour</h2>
+        <p>Powrush-MMO is in active development. The current build is offline and single-player. Online play is not live. There is no Steam page, and there is no release date. It is not a public launch candidate.</p>
+        <p>The default binary is the lived hour in the <a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO" rel="noopener noreferrer" target="_blank">Powrush-MMO<span class="sr-only"> (opens in a new tab)</span></a> repository. Hours one and two are code-complete. Hours 1–3 are on main. The paragraphs below follow the README and the docs for that default client. Each one cites a source file on main. The plugin list itself is <a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/lib.rs" rel="noopener noreferrer" target="_blank">client/src/lib.rs<span class="sr-only"> (opens in a new tab)</span></a>.</p>
+      </div>
+    </div>
+    <figure class="frame">
+      <img class="op-dock" src="images/art/media-human-lakeside-dock-1500.webp" srcset="images/art/media-human-lakeside-dock-768.webp 768w, images/art/media-human-lakeside-dock-1500.webp 1500w" sizes="100vw" width="1500" height="844" alt="Wooden lakeside dock beside a solar-roofed field station, where people in field gear check equipment and tie up a utility boat, with rock spires on the far shore." decoding="async" loading="lazy">
+      <figcaption><div class="wrap">Painted art. Not a screenshot of the current offline build.</div></figcaption>
+    </figure>
+    <div class="sheet-wrap">
+      <div class="wrap">
+        <div class="systems">
+          <article class="system">
+            <h2>Title</h2>
+            <p>Play, Continue, and Settings. Continue shows the House name, or Unnamed House, and the yard remembers when a local save exists. House naming is skippable. Title Online stays grey.</p>
+            <ul class="sources">
+            <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/title_screen.rs" rel="noopener noreferrer" target="_blank">client/src/title_screen.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
+          </ul>
+          </article>
+          <article class="system">
+            <h2>Hands</h2>
+            <p>WASD walk. Space jump. Shift sprint. E harvests or tends. I opens the satchel. H hides guidance. R allocates. One card teaches walk, tend, satchel, and allocate. One Use verb. Keyboard is the walked proof. Touch controls are in the same client.</p>
+            <ul class="sources">
+            <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/input.rs" rel="noopener noreferrer" target="_blank">client/src/input.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
+            <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/soft_play_bindings.rs" rel="noopener noreferrer" target="_blank">client/src/soft_play_bindings.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
+            <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/human_presence.rs" rel="noopener noreferrer" target="_blank">client/src/human_presence.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
+            <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/touch_controls.rs" rel="noopener noreferrer" target="_blank">client/src/touch_controls.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
+            <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/first_session_guidance.rs" rel="noopener noreferrer" target="_blank">client/src/first_session_guidance.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
+            <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/human_inventory.rs" rel="noopener noreferrer" target="_blank">client/src/human_inventory.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
+          </ul>
+          </article>
+          <article class="system">
+            <h2>Harvest and the well</h2>
+            <p>You harvest with mercy. Wells speak Idle, Glowing, Tended, Resting, or Stressed. If you only take, the glow fades. The first well: E Contest, and dawn after a loss.</p>
+            <ul class="sources">
+            <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/mercy_harvest_nodes.rs" rel="noopener noreferrer" target="_blank">client/src/mercy_harvest_nodes.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
+            <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/harvest_feel.rs" rel="noopener noreferrer" target="_blank">client/src/harvest_feel.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
+            <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/climate_visible.rs" rel="noopener noreferrer" target="_blank">client/src/climate_visible.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
+            <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/skirmish_well.rs" rel="noopener noreferrer" target="_blank">client/src/skirmish_well.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
+          </ul>
+          </article>
+          <article class="system">
+            <h2>Allocate</h2>
+            <p>R opens the choice when it is eligible. 1 is flow: the take moves into shared climate repair. 2 is reserve: the take becomes repair-rights you can spend later. Neither verb is sell. The lesson is in the hands. It is a teaching, not a wage.</p>
+            <ul class="sources">
+            <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/rbe_allocate_choice.rs" rel="noopener noreferrer" target="_blank">client/src/rbe_allocate_choice.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
+          </ul>
+          </article>
+        </div>
+      </div>
+    </div>
+    <figure class="frame">
+      <img class="op-crystal" src="images/art/media-quellorian-crystal-power-spire-1500.webp" srcset="images/art/media-quellorian-crystal-power-spire-768.webp 768w, images/art/media-quellorian-crystal-power-spire-1500.webp 1500w" sizes="100vw" width="1500" height="844" alt="Two lavender-skinned figures read a tablet on a terrace overlooking a tall white spire housing a glowing blue crystal, surrounded by pools, bridges and a waterfall city." decoding="async" loading="lazy">
+      <figcaption><div class="wrap">Painted art. Not a screenshot of the current offline build.</div></figcaption>
+    </figure>
+    <div class="sheet-wrap">
+      <div class="wrap">
+        <div class="systems">
+          <article class="system">
+            <h2>Climate and places</h2>
+            <p>You walk a climate. Four places stay four: Sanctuary, Heartwood, Threshold, and Depths. Play boots in the Sanctuary yard. Depths is not the boot. Without the book, the other Places stay closed. There is no Heartwood mesh on Sanctuary. In the offline hour a well can be idle, glowing, tended, resting, or stressed.</p>
+            <p>Light generation is off by default. Settings Grove · light, or <code>POWRUSH_GEN=light</code>, turns on hex-seed scatter and climate fog behind the UI. The same path either way. It stays off the title, pause, Settings, and the L and Q plates.</p>
+            <ul class="sources">
+            <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/climate_plane.rs" rel="noopener noreferrer" target="_blank">client/src/climate_plane.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
+            <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/climate_visible.rs" rel="noopener noreferrer" target="_blank">client/src/climate_visible.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
+            <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/shard_climate.rs" rel="noopener noreferrer" target="_blank">client/src/shard_climate.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
+            <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/hex_travel.rs" rel="noopener noreferrer" target="_blank">client/src/hex_travel.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
+            <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/light_gen.rs" rel="noopener noreferrer" target="_blank">client/src/light_gen.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
+          </ul>
+          </article>
+          <article class="system">
+            <h2>The yard remembers</h2>
+            <p>Quit and rerun. The welcome slab says the yard remembers. That memory is <code>data/powrush_hour_two.json</code>. Local settings persist beside the house file. Mute silences the bed and the well sting.</p>
+            <ul class="sources">
+            <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/hour_two_resume.rs" rel="noopener noreferrer" target="_blank">client/src/hour_two_resume.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
+            <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/local_session_persist.rs" rel="noopener noreferrer" target="_blank">client/src/local_session_persist.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
+            <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/local_settings.rs" rel="noopener noreferrer" target="_blank">client/src/local_settings.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
+            <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/peace_audio.rs" rel="noopener noreferrer" target="_blank">client/src/peace_audio.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
+          </ul>
+          </article>
+        </div>
+      </div>
+    </div>
+    <figure class="frame">
+      <img class="op-bridge" src="images/art/media-quellorian-waterfall-bridge-1500.webp" srcset="images/art/media-quellorian-waterfall-bridge-768.webp 768w, images/art/media-quellorian-waterfall-bridge-1500.webp 1500w" sizes="100vw" width="1500" height="844" alt="A lavender-skinned traveler with a backpack stands in front of an arched white bridge with violet glass railings over a waterfall gorge as two more travelers cross it." decoding="async" loading="lazy">
+      <figcaption><div class="wrap">Painted art. Not a screenshot of the current offline build.</div></figcaption>
+    </figure>
+    <div class="sheet-wrap">
+      <div class="wrap">
+        <div class="systems">
+          <article class="system">
+            <h2>After allocate</h2>
+            <p>Peace keeps W silent. Tab, G, L, and Q stay dead until Charter and Frontier. After a first-hour allocate, Tab steps Frontier. Q founds a House. L Bind settles. Quit and rerun: the yard remembers, and the line is Hour two held.</p>
+            <p>G Voice: E aye on the beacon card. The frontier yard can show an offline extractor with spill. After arrival, Q Proof Pack, then Embassy E seat: Hour three held, the book is yours. Q plants a fabricator. After the embassy seat, Crownstone: E Witness, path Unset. After the stone is seen, Sylvaris: E Offer a tend. After the tend, Hybrid: E Attune. Compass speaks at live W 20 and 60. Peace stays silent. Tab Chart: the week score is tons plus restored. Ledger 3: opt-in DeclaredLethal, and a hunter blood tariff. Bind stays the default. These steps are in the offline hour. They are not online play.</p>
+            <ul class="sources">
+            <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/hour_sacred.rs" rel="noopener noreferrer" target="_blank">client/src/hour_sacred.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
+            <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/ledger_bind.rs" rel="noopener noreferrer" target="_blank">client/src/ledger_bind.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
+            <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/coop_voice.rs" rel="noopener noreferrer" target="_blank">client/src/coop_voice.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
+            <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/infra_spill.rs" rel="noopener noreferrer" target="_blank">client/src/infra_spill.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
+            <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/embassy.rs" rel="noopener noreferrer" target="_blank">client/src/embassy.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
+            <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/fabricator.rs" rel="noopener noreferrer" target="_blank">client/src/fabricator.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
+            <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/crownstone.rs" rel="noopener noreferrer" target="_blank">client/src/crownstone.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
+            <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/species_redemption.rs" rel="noopener noreferrer" target="_blank">client/src/species_redemption.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
+            <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/hybrid_matrix.rs" rel="noopener noreferrer" target="_blank">client/src/hybrid_matrix.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
+            <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/compass.rs" rel="noopener noreferrer" target="_blank">client/src/compass.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
+            <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/war_week.rs" rel="noopener noreferrer" target="_blank">client/src/war_week.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
+          </ul>
+          </article>
+          <article class="system">
+            <h2>Net</h2>
+            <p>The default is Offline. No dedicated server is required. There is no “12 players online.” <code>POWRUSH_NET</code> defaults off, zero sockets. Settings LAN is off, or loopback. Loopback is 127.0.0.1 only. It never lights Title Online, and it never opens a public bind. Ra-Thor may read a lived tick. It does not drive the keys.</p>
+            <ul class="sources">
+            <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/net_mode.rs" rel="noopener noreferrer" target="_blank">client/src/net_mode.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
+          </ul>
+          </article>
+          <article class="system">
+            <h2>Not in this hour</h2>
+            <p>Not in the first hour: NFT or chain mint, k8s, payments, a second HUD, fake presence, lighting Title Online, or a public bind. No Market. No Depths as boot.</p>
+            <p>Parked on disk, and not the default door: <code>server/</code>, <code>simulation/</code>, <code>host/</code>, <code>game/</code>, <code>powrush-divine-module/</code>, and <code>powrush-shard/</code>. The shard listen is a localhost dev recipe only. <code>payments/</code> stays out of the first hour. Steam packaging stays parked. There is no Steam page.</p>
+            <p>The story of the five peoples and four places is on <a href="world.html">World</a>. <a href="play.html">Play</a> on this site is coming later.</p>
+          </article>
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <footer class="site-footer">
+    <div class="footer-media">
+      <img class="op-garden" src="images/art/spare-quellorian-garden-quarter-1500.webp" srcset="images/art/spare-quellorian-garden-quarter-768.webp 768w, images/art/spare-quellorian-garden-quarter-1500.webp 1500w" sizes="100vw" width="1500" height="844" alt="Curved white homes with crystal accents beside a garden canal and arched footbridge, with lavender flowering trees, robed lavender-skinned residents strolling, and waterfalls in the distance." decoding="async" loading="lazy">
+      <div class="footer-scrim" aria-hidden="true"></div>
+      <div class="wrap footer-copy">
+        <p>© 2026 Autonomicity Games Inc.</p>
+        <p><a href="mailto:info@Rathor.ai">info@Rathor.ai</a></p>
+        <p>Community</p>
+        <p class="footer-channels"><a href="https://x.com/ACityGamesInc" rel="noopener noreferrer" target="_blank">@ACityGamesInc<span class="sr-only"> (opens in a new tab)</span></a> <a href="https://x.com/AlphaProMega" rel="noopener noreferrer" target="_blank">Sherif on X<span class="sr-only"> (opens in a new tab)</span></a></p>
+        <p>Independent of xAI.</p>
+        <p><a href="https://acitygames.com/" rel="noopener noreferrer" target="_blank">acitygames.com<span class="sr-only"> (opens in a new tab)</span></a></p>
+      </div>
+    </div>
+  </footer>
+  <script src="js/theme.js" defer></script>
+</body>
+</html>
