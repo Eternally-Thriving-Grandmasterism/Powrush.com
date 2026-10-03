@@ -12,10 +12,11 @@
 ## Status
 
 - Play is coming later. Online play is not available.
-- One human, one machine. Offline first. Title Online stays grey.
+- One human, one machine. Offline first. Online play isn’t available yet.
 - The yard is the universe at the scale of a well. The wider story wears five peoples and a stone.
 - Walk a climate. Harvest with mercy. Learn a resource-based economy by playing. The lesson is in the hands. It is a teaching, not a wage.
 - Repository: https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO
+- Also from the studio: https://acitygames.com (Autonomicity Games Inc.) and https://rathor.ai
 
 ## Contact
 
