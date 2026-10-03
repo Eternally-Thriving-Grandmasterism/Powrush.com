@@ -1,6 +1,6 @@
 # Powrush
 
-> Powrush is a game from Autonomicity Games. If you only take, the glow fades. If you allocate, the climate comes back. The current build is offline and single-player, and it is in active development. Online play is not live. There is no Steam page and no release date. It is not a public launch candidate. This site is https://powrush.com. The company site is https://acitygames.com.
+> Powrush is a game from Autonomicity Games Inc. If you only take, the glow fades. If you allocate, the climate comes back. The current build is offline and single-player, and it is in active development. Online play is not live. There is no Steam page and no release date. It is not a public launch candidate. This site is https://powrush.com. The company site is https://acitygames.com.
 
 ## Pages
 
