@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Systems — Powrush</title>
-  <meta name="description" content="Systems in the Powrush-MMO default client on main today. Offline first. Online play isn’t available yet. Each system cites its source file.">
+  <meta name="description" content="What you actually do in Powrush’s offline first hour, from walking and harvesting to founding a House. Every system links its source file. Online play isn’t available yet.">
   <meta name="theme-color" content="#12110e" media="(prefers-color-scheme: dark)">
   <meta name="theme-color" content="#f7e7de" media="(prefers-color-scheme: light)">
   <link rel="canonical" href="https://powrush.com/systems.html">
@@ -54,9 +54,9 @@
         <div class="hero-scrim" aria-hidden="true"></div>
         <div class="hero-copy">
           <div class="wrap">
-            <p class="kicker">On main today</p>
+            <p class="kicker">In the build today</p>
             <h1>Systems</h1>
-            <p class="lede">One human, one machine. Offline first. Online play isn’t available yet.</p>
+            <p class="lede">You and one machine. Offline first. Online play isn’t available yet.</p>
           </div>
         </div>
       </div>
@@ -64,9 +64,9 @@
     </figure>
     <div class="sheet-wrap">
       <div class="wrap sheet">
-        <h2>The lived hour</h2>
-        <p>Powrush-MMO is in active development. The current build is offline and single-player. Online play is not live. There is no Steam page, and there is no release date. It is not a public launch candidate.</p>
-        <p>The default binary is the lived hour in the <a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO" rel="noopener noreferrer" target="_blank">Powrush-MMO<span class="sr-only"> (opens in a new tab)</span></a> repository. Hours one and two are code-complete. Hours 1–3 are on main. The paragraphs below follow the README and the docs for that default client. Each one cites a source file on main. The plugin list itself is <a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/lib.rs" rel="noopener noreferrer" target="_blank">client/src/lib.rs<span class="sr-only"> (opens in a new tab)</span></a>.</p>
+        <h2>Your first hour</h2>
+        <p>Powrush-MMO is in active development. The current build is offline and single-player. Online play isn’t available yet. There’s no Steam page and no release date, and it isn’t a public launch candidate. Here’s what’s actually in it.</p>
+        <p>The default game in the <a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO" rel="noopener noreferrer" target="_blank">Powrush-MMO<span class="sr-only"> (opens in a new tab)</span></a> repository is the first hour. Hours one and two are code-complete, and hours 1–3 are on main. Everything below comes from the README and the docs, and every card links its source file on main, so you can check us. The full plugin list is <a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/lib.rs" rel="noopener noreferrer" target="_blank">client/src/lib.rs<span class="sr-only"> (opens in a new tab)</span></a>.</p>
       </div>
     </div>
     <figure class="frame">
@@ -77,15 +77,15 @@
       <div class="wrap">
         <div class="systems">
           <article class="system">
-            <h2>Title</h2>
-            <p>Play, Continue, and Settings. Continue shows the House name, or Unnamed House, and the yard remembers when a local save exists. House naming is skippable. The Online option on the title screen is switched off, because online play isn’t available yet.</p>
+            <h2>The title screen</h2>
+            <p>Play, Continue, Settings. Come back to a local save and Continue greets your House by name, or as Unnamed House, with “the yard remembers.” Naming your House is optional. The Online option is greyed out, because online play isn’t available yet.</p>
             <ul class="sources">
             <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/title_screen.rs" rel="noopener noreferrer" target="_blank">client/src/title_screen.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
           </ul>
           </article>
           <article class="system">
-            <h2>Hands</h2>
-            <p>WASD walk. Space jump. Shift sprint. E harvests or tends. I opens the satchel. H hides guidance. R allocates. One card teaches walk, tend, satchel, and allocate. One Use verb. Keyboard is the walked proof. Touch controls are in the same client.</p>
+            <h2>Your controls</h2>
+            <p>WASD to walk. Space to jump. Shift to sprint. E to harvest or tend, with a glow, a camera punch, and a rumble on your first take. I opens your satchel. H hides the guidance. R allocates. One card teaches walk, tend, satchel, and allocate. One Use key does the work. Keyboard is the tested path, and touch controls are in the same client.</p>
             <ul class="sources">
             <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/input.rs" rel="noopener noreferrer" target="_blank">client/src/input.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
             <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/soft_play_bindings.rs" rel="noopener noreferrer" target="_blank">client/src/soft_play_bindings.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
@@ -96,8 +96,8 @@
           </ul>
           </article>
           <article class="system">
-            <h2>Harvest and the well</h2>
-            <p>You harvest with mercy. Wells speak Idle, Glowing, Tended, Resting, or Stressed. If you only take, the glow fades. The first well: E Contest, and dawn after a loss.</p>
+            <h2>Wells have moods</h2>
+            <p>Harvest with mercy. Every well tells you where it stands: Idle, Glowing, Tended, Resting, or Stressed. Take, take, take, and the glow fades. Your first well can be contested: press E to Contest, and if you lose, a new dawn comes.</p>
             <ul class="sources">
             <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/mercy_harvest_nodes.rs" rel="noopener noreferrer" target="_blank">client/src/mercy_harvest_nodes.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
             <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/harvest_feel.rs" rel="noopener noreferrer" target="_blank">client/src/harvest_feel.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
@@ -106,8 +106,8 @@
           </ul>
           </article>
           <article class="system">
-            <h2>Allocate</h2>
-            <p>R opens the choice when it is eligible. 1 is flow: the take moves into shared climate repair. 2 is reserve: the take becomes repair-rights you can spend later. Neither verb is sell. The lesson is in the hands. It is a teaching, not a wage.</p>
+            <h2>Your call: flow or reserve</h2>
+            <p>When the time is right, R opens the choice. Press 1 for flow: your take goes into repairing the shared climate. Press 2 for reserve: your take becomes repair-rights you can spend later. Neither one is “sell.” You learn the economy with your hands. It’s a lesson, not a wage.</p>
             <ul class="sources">
             <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/rbe_allocate_choice.rs" rel="noopener noreferrer" target="_blank">client/src/rbe_allocate_choice.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
           </ul>
@@ -123,9 +123,9 @@
       <div class="wrap">
         <div class="systems">
           <article class="system">
-            <h2>Climate and places</h2>
-            <p>You walk a climate. Four places stay four: Sanctuary, Heartwood, Threshold, and Depths. Play boots in the Sanctuary yard. Depths is not the boot. Without the book, the other Places stay closed. There is no Heartwood mesh on Sanctuary. In the offline hour a well can be idle, glowing, tended, resting, or stressed.</p>
-            <p>Light generation is off by default. Settings Grove · light, or <code>POWRUSH_GEN=light</code>, turns on hex-seed scatter and climate fog behind the UI. The same path either way. It stays off the title, pause, Settings, and the L and Q plates.</p>
+            <h2>The climate and the places</h2>
+            <p>You’re walking a living climate. Four places: Sanctuary, Heartwood, Threshold, and Depths. You start in the Sanctuary yard, not in Depths, and the other places stay locked until you hold the book. Sanctuary keeps its own look, with no Heartwood dressing on it.</p>
+            <p>Want more atmosphere? Light generation is off by default. Turn on Settings Grove · light, or set <code>POWRUSH_GEN=light</code>, for hex-seeded scatter and climate fog behind the UI. Same result either way. It stays out of the title, pause, Settings, and the L and Q panels.</p>
             <ul class="sources">
             <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/climate_plane.rs" rel="noopener noreferrer" target="_blank">client/src/climate_plane.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
             <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/climate_visible.rs" rel="noopener noreferrer" target="_blank">client/src/climate_visible.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
@@ -136,7 +136,7 @@
           </article>
           <article class="system">
             <h2>The yard remembers</h2>
-            <p>Quit and rerun. The welcome slab says the yard remembers. That memory is <code>data/powrush_hour_two.json</code>. Local settings persist beside the house file. Mute silences the bed and the well sting.</p>
+            <p>Quit, come back, and the welcome slab says the yard remembers. Your progress lives in <code>data/powrush_hour_two.json</code>, and your settings save right next to it. Mute really mutes: the background bed and the well sting both go quiet.</p>
             <ul class="sources">
             <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/hour_two_resume.rs" rel="noopener noreferrer" target="_blank">client/src/hour_two_resume.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
             <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/local_session_persist.rs" rel="noopener noreferrer" target="_blank">client/src/local_session_persist.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
@@ -155,9 +155,9 @@
       <div class="wrap">
         <div class="systems">
           <article class="system">
-            <h2>After allocate</h2>
-            <p>Peace keeps W silent. Tab, G, L, and Q stay dead until Charter and Frontier. After a first-hour allocate, Tab steps Frontier. Q founds a House. L Bind settles. Quit and rerun: the yard remembers, and the line is Hour two held.</p>
-            <p>G Voice: E aye on the beacon card. The frontier yard can show an offline extractor with spill. After arrival, Q Proof Pack, then Embassy E seat: Hour three held, the book is yours. Q plants a fabricator. After the embassy seat, Crownstone: E Witness, path Unset. After the stone is seen, Sylvaris: E Offer a tend. After the tend, Hybrid: E Attune. Compass speaks at live W 20 and 60. Peace stays silent. Tab Chart: the week score is tons plus restored. Ledger 3: opt-in DeclaredLethal, and a hunter blood tariff. Bind stays the default. These steps are in the offline hour. They are not online play.</p>
+            <h2>Hour two, hour three, and the stone</h2>
+            <p>Peace keeps W silent. Tab, G, L, and Q wake up once you reach Charter and Frontier. After your first allocate, Tab takes you to the Frontier. Q founds your House. L Bind settles it. Quit and come back: “Hour two held · the yard remembers.”</p>
+            <p>Then it gets bigger. G is Voice: E says aye on the beacon card. Out on the frontier yard, an offline extractor leaking spill shows you what pure taking does. After arrival, Q makes a Proof Pack, and E takes your seat at the Embassy: “Hour three held · the book is yours.” Q plants a fabricator. After the embassy seat comes the Crownstone: E to Witness it, with your path still unset. After you’ve seen the stone, Sylvaris: E to offer a tend. After the tend, the Hybrid: E to Attune. Your compass speaks up at live W 20 and 60, and Peace stays silent. Tab Chart scores your war week as tons plus restored. Ledger 3 is opt-in: DeclaredLethal, with a hunter blood tariff. Bind stays the default. All of this is in the offline hour. None of it is online play.</p>
             <ul class="sources">
             <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/hour_sacred.rs" rel="noopener noreferrer" target="_blank">client/src/hour_sacred.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
             <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/ledger_bind.rs" rel="noopener noreferrer" target="_blank">client/src/ledger_bind.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
@@ -173,17 +173,17 @@
           </ul>
           </article>
           <article class="system">
-            <h2>Net</h2>
-            <p>The default is Offline. No dedicated server is required. There is no “12 players online.” <code>POWRUSH_NET</code> defaults off, zero sockets. Settings LAN is off, or loopback. Loopback is 127.0.0.1 only. It never switches on the Online option on the title screen, and it never opens a public bind. Ra-Thor may read a lived tick. It does not drive the keys.</p>
+            <h2>Online? Not yet.</h2>
+            <p>The default is Offline. No dedicated server needed. And no fake “12 players online.” <code>POWRUSH_NET</code> is off by default, with zero sockets. Settings LAN is off, or loopback, and loopback means 127.0.0.1 only. It never switches on the Online option on the title screen, and it never opens a public connection. Ra-Thor may read a record of your hour. It never touches your keys.</p>
             <ul class="sources">
             <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/net_mode.rs" rel="noopener noreferrer" target="_blank">client/src/net_mode.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
           </ul>
           </article>
           <article class="system">
-            <h2>Not in this hour</h2>
-            <p>Not in the first hour: NFT or chain mint, k8s, payments, a second HUD, fake presence, switching on online play from the title screen, or a public bind. No Market. No Depths as boot.</p>
-            <p>Parked on disk, and not the default door: <code>server/</code>, <code>simulation/</code>, <code>host/</code>, <code>game/</code>, <code>powrush-divine-module/</code>, and <code>powrush-shard/</code>. The shard listen is a localhost dev recipe only. <code>payments/</code> stays out of the first hour. Steam packaging stays parked. There is no Steam page.</p>
-            <p>The story of the five peoples and four places is on <a href="world.html">World</a>. <a href="play.html">Play</a> on this site is coming later.</p>
+            <h2>Not in your first hour</h2>
+            <p>No NFTs or chain mints. No payments. No second HUD. No fake players. No switching on online play from the title screen, and no public connection. No Market, and you don’t start in Depths.</p>
+            <p>Some code is parked on disk and isn’t part of the default game: <code>server/</code>, <code>simulation/</code>, <code>host/</code>, <code>game/</code>, <code>powrush-divine-module/</code>, and <code>powrush-shard/</code>. The shard listener is a local dev recipe only. <code>payments/</code> stays out of the first hour. Steam packaging is parked, and there’s no Steam page.</p>
+            <p>Want the lore of the five peoples and four places? That’s on <a href="world.html">World</a>. <a href="play.html">Play</a> on this site is coming later.</p>
           </article>
         </div>
       </div>
@@ -199,7 +199,6 @@
         <p><a href="mailto:info@Rathor.ai">info@Rathor.ai</a></p>
         <p>Community</p>
         <p class="footer-channels"><a href="https://x.com/ACityGamesInc" rel="noopener noreferrer" target="_blank">@ACityGamesInc<span class="sr-only"> (opens in a new tab)</span></a> <a href="https://x.com/AlphaProMega" rel="noopener noreferrer" target="_blank">Sherif on X<span class="sr-only"> (opens in a new tab)</span></a></p>
-        <p>Independent of xAI.</p>
         <p class="footer-channels"><a href="https://acitygames.com/" rel="noopener noreferrer" target="_blank">acitygames.com<span class="sr-only"> (opens in a new tab)</span></a> <a href="https://rathor.ai/" rel="noopener noreferrer" target="_blank">rathor.ai<span class="sr-only"> (opens in a new tab)</span></a></p>
       </div>
     </div>
