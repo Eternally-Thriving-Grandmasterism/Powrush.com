@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Play — Powrush</title>
+  <meta name="description" content="Play is coming later. Online play is not available. Powrush is offline and single-player, in active development. No Steam page and no release date.">
+  <meta name="theme-color" content="#12110e" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f7e7de" media="(prefers-color-scheme: light)">
+  <link rel="canonical" href="https://powrush.com/play.html">
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <script>
+    (function () {
+      var theme = "dark";
+      try {
+        var stored = localStorage.getItem("powrush-theme");
+        if (stored === "light" || stored === "dark") theme = stored;
+        else if (window.matchMedia("(prefers-color-scheme: light)").matches) theme = "light";
+      } catch (e) {}
+      document.documentElement.setAttribute("data-theme", theme);
+    })();
+  </script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="brand" href="index.html">Powrush</a>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li><li><a href="world.html">World</a></li><li><a href="systems.html">Systems</a></li><li><a href="play.html" aria-current="page">Play</a></li><li><a href="https://acitygames.com/" rel="noopener noreferrer" target="_blank">Company<span class="sr-only"> (opens in a new tab)</span></a></li>
+        </ul>
+        <button type="button" class="theme-toggle" id="theme-toggle" hidden aria-pressed="false" aria-label="Switch to light mode">
+          <span class="theme-toggle-icons" aria-hidden="true">
+            <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" focusable="false">
+              <circle cx="12" cy="12" r="4.1"></circle>
+              <path d="M12 2.6v2.2M12 19.2v2.2M4.8 4.8l1.6 1.6M17.6 17.6l1.6 1.6M2.6 12h2.2M19.2 12h2.2M4.8 19.2l1.6-1.6M17.6 6.4l1.6-1.6" fill="none"></path>
+            </svg>
+            <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" focusable="false">
+              <path d="M15.2 3.4A8.2 8.2 0 1 0 20.6 14 6.4 6.4 0 0 1 15.2 3.4z"></path>
+            </svg>
+          </span>
+        </button>
+      </nav>
+    </div>
+  </header>
+  <main id="content" tabindex="-1">
+    
+    <figure class="hero">
+      <div class="hero-media">
+        <img class="op-play" src="images/art/play-human-shuttle-port-1500.webp" srcset="images/art/play-human-shuttle-port-768.webp 768w, images/art/play-human-shuttle-port-1500.webp 1500w" sizes="100vw" width="1500" height="844" alt="A couple with backpacks walks a garden path toward a mountain shuttle port where passengers board a parked spacecraft, with a lake, a waterfall and snowy peaks behind." decoding="async" fetchpriority="high" loading="eager">
+        <div class="hero-scrim" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <div class="wrap">
+            <p class="kicker">Not open</p>
+            <h1>Play is coming later</h1>
+            <p class="lede">Online play is not available.</p>
+          </div>
+        </div>
+      </div>
+      <figcaption><div class="wrap">Painted art. Not a screenshot of the current offline build.</div></figcaption>
+    </figure>
+    <div class="sheet-wrap">
+      <div class="wrap sheet">
+        <h2>This doorway waits</h2>
+        <p>Play is coming later. Online play is not available. This page does not take an email address. There is no release date.</p>
+        <p>The current build is offline and single-player, and it is in active development. One human, one machine. Offline first. Online play isn’t available yet. It is not a public launch candidate. There is no Steam page.</p>
+        <p>What that offline build does today is on <a href="systems.html">Systems</a>. The world it is set in is on <a href="world.html">World</a>. The company site is <a href="https://acitygames.com/" rel="noopener noreferrer" target="_blank">acitygames.com<span class="sr-only"> (opens in a new tab)</span></a>.</p>
+      </div>
+    </div>
+    <figure class="frame">
+      <img class="op-cable" src="images/art/spare-human-cable-car-valley-1500.webp" srcset="images/art/spare-human-cable-car-valley-768.webp 768w, images/art/spare-human-cable-car-valley-1500.webp 1500w" sizes="100vw" width="1500" height="844" alt="Wooden cable-car station on a cliff where three travelers board a green gondola while a second gondola crosses a valley of pine forest, waterfalls and snow-capped mountains." decoding="async" loading="lazy">
+      <figcaption><div class="wrap">Painted art. Not a screenshot of the current offline build.</div></figcaption>
+    </figure>
+    <div class="sheet-wrap">
+      <div class="wrap sheet">
+        <p>The paintings are the world as imagined. They are not a live session, and they are not screenshots of the current offline build.</p>
+      </div>
+    </div>
+
+  </main>
+  <footer class="site-footer">
+    <div class="footer-media">
+      <img class="op-farm" src="images/art/media-human-greenhouse-farm-1500.webp" srcset="images/art/media-human-greenhouse-farm-768.webp 768w, images/art/media-human-greenhouse-farm-1500.webp 1500w" sizes="100vw" width="1500" height="844" alt="Terraced farm with glass greenhouses and solar panels where workers pick tomatoes and push a cart of produce crates, with a lake and mountains behind." decoding="async" loading="lazy">
+      <div class="footer-scrim" aria-hidden="true"></div>
+      <div class="footer-copy">
+        <p>© 2026 Autonomicity Games Inc.</p>
+        <p><a href="mailto:info@Rathor.ai">info@Rathor.ai</a></p>
+        <p>Community</p>
+        <p class="footer-channels"><a href="https://x.com/ACityGamesInc" rel="noopener noreferrer" target="_blank">@ACityGamesInc<span class="sr-only"> (opens in a new tab)</span></a> <a href="https://x.com/AlphaProMega" rel="noopener noreferrer" target="_blank">Sherif on X<span class="sr-only"> (opens in a new tab)</span></a></p>
+        <p>Independent of xAI.</p>
+        <p class="footer-channels"><a href="https://acitygames.com/" rel="noopener noreferrer" target="_blank">acitygames.com<span class="sr-only"> (opens in a new tab)</span></a> <a href="https://rathor.ai/" rel="noopener noreferrer" target="_blank">rathor.ai<span class="sr-only"> (opens in a new tab)</span></a></p>
+      </div>
+    </div>
+  </footer>
+  <script src="js/theme.js" defer></script>
+</body>
+</html>
