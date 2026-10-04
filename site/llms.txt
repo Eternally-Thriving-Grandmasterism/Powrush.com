@@ -1,6 +1,6 @@
 # Powrush
 
-> Powrush is a game from Autonomicity Games Inc. If you only take, the glow fades. If you allocate, the climate comes back. The current build is offline and single-player, and it is in active development. Online play is not live. There is no Steam page and no release date. It is not a public launch candidate. This site is https://powrush.com. The company site is https://acitygames.com.
+> Powrush is a game from Autonomicity Games Inc. Take everything and the glow fades. Share it, and the climate comes back. The current build is offline and single-player, and it’s in active development. Online play isn’t available yet. There’s no Steam page and no release date. It isn’t a public launch candidate. Powrush has been in the works since 2016 (https://acitygames.com/powrush.html). This site is https://powrush.com. The company site is https://acitygames.com.
 
 ## Pages
 
@@ -11,14 +11,13 @@
 
 ## Status
 
-- Play is coming later. Online play is not available.
-- One human, one machine. Offline first. Online play isn’t available yet.
-- The yard is the universe at the scale of a well. The wider story wears five peoples and a stone.
-- Walk a climate. Harvest with mercy. Learn a resource-based economy by playing. The lesson is in the hands. It is a teaching, not a wage.
+- Play on this site is coming later. Online play isn’t available yet.
+- You and one machine. Offline first.
+- The yard is the whole universe, shrunk to the size of a well. The wider story has five peoples and a stone.
+- Walk a living climate. Harvest with mercy. Learn a resource-based economy by playing it. It’s a lesson, not a wage.
 - Repository: https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO
-- Also from the studio: https://acitygames.com (Autonomicity Games Inc.) and https://rathor.ai
+- From the studio behind Powrush: https://acitygames.com (Autonomicity Games Inc.) and https://rathor.ai
 
 ## Contact
 
 - info@Rathor.ai
-- Independent of xAI.
