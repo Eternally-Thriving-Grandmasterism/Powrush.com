@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Systems — Powrush</title>
-  <meta name="description" content="Systems in the Powrush-MMO default client on main today. Offline first. Title Online stays grey. Each system cites its source file.">
+  <meta name="description" content="Systems in the Powrush-MMO default client on main today. Offline first. Online play isn’t available yet. Each system cites its source file.">
   <meta name="theme-color" content="#12110e" media="(prefers-color-scheme: dark)">
-  <meta name="theme-color" content="#f4f1ea" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#f7e7de" media="(prefers-color-scheme: light)">
   <link rel="canonical" href="https://powrush.com/systems.html">
   <link rel="icon" href="favicon.png" type="image/png">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -56,7 +56,7 @@
           <div class="wrap">
             <p class="kicker">On main today</p>
             <h1>Systems</h1>
-            <p class="lede">One human, one machine. Offline first. Title Online stays grey.</p>
+            <p class="lede">One human, one machine. Offline first. Online play isn’t available yet.</p>
           </div>
         </div>
       </div>
@@ -78,7 +78,7 @@
         <div class="systems">
           <article class="system">
             <h2>Title</h2>
-            <p>Play, Continue, and Settings. Continue shows the House name, or Unnamed House, and the yard remembers when a local save exists. House naming is skippable. Title Online stays grey.</p>
+            <p>Play, Continue, and Settings. Continue shows the House name, or Unnamed House, and the yard remembers when a local save exists. House naming is skippable. The Online option on the title screen is switched off, because online play isn’t available yet.</p>
             <ul class="sources">
             <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/title_screen.rs" rel="noopener noreferrer" target="_blank">client/src/title_screen.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
           </ul>
@@ -174,14 +174,14 @@
           </article>
           <article class="system">
             <h2>Net</h2>
-            <p>The default is Offline. No dedicated server is required. There is no “12 players online.” <code>POWRUSH_NET</code> defaults off, zero sockets. Settings LAN is off, or loopback. Loopback is 127.0.0.1 only. It never lights Title Online, and it never opens a public bind. Ra-Thor may read a lived tick. It does not drive the keys.</p>
+            <p>The default is Offline. No dedicated server is required. There is no “12 players online.” <code>POWRUSH_NET</code> defaults off, zero sockets. Settings LAN is off, or loopback. Loopback is 127.0.0.1 only. It never switches on the Online option on the title screen, and it never opens a public bind. Ra-Thor may read a lived tick. It does not drive the keys.</p>
             <ul class="sources">
             <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/net_mode.rs" rel="noopener noreferrer" target="_blank">client/src/net_mode.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
           </ul>
           </article>
           <article class="system">
             <h2>Not in this hour</h2>
-            <p>Not in the first hour: NFT or chain mint, k8s, payments, a second HUD, fake presence, lighting Title Online, or a public bind. No Market. No Depths as boot.</p>
+            <p>Not in the first hour: NFT or chain mint, k8s, payments, a second HUD, fake presence, switching on online play from the title screen, or a public bind. No Market. No Depths as boot.</p>
             <p>Parked on disk, and not the default door: <code>server/</code>, <code>simulation/</code>, <code>host/</code>, <code>game/</code>, <code>powrush-divine-module/</code>, and <code>powrush-shard/</code>. The shard listen is a localhost dev recipe only. <code>payments/</code> stays out of the first hour. Steam packaging stays parked. There is no Steam page.</p>
             <p>The story of the five peoples and four places is on <a href="world.html">World</a>. <a href="play.html">Play</a> on this site is coming later.</p>
           </article>
@@ -194,13 +194,13 @@
     <div class="footer-media">
       <img class="op-garden" src="images/art/spare-quellorian-garden-quarter-1500.webp" srcset="images/art/spare-quellorian-garden-quarter-768.webp 768w, images/art/spare-quellorian-garden-quarter-1500.webp 1500w" sizes="100vw" width="1500" height="844" alt="Curved white homes with crystal accents beside a garden canal and arched footbridge, with lavender flowering trees, robed lavender-skinned residents strolling, and waterfalls in the distance." decoding="async" loading="lazy">
       <div class="footer-scrim" aria-hidden="true"></div>
-      <div class="wrap footer-copy">
+      <div class="footer-copy">
         <p>© 2026 Autonomicity Games Inc.</p>
         <p><a href="mailto:info@Rathor.ai">info@Rathor.ai</a></p>
         <p>Community</p>
         <p class="footer-channels"><a href="https://x.com/ACityGamesInc" rel="noopener noreferrer" target="_blank">@ACityGamesInc<span class="sr-only"> (opens in a new tab)</span></a> <a href="https://x.com/AlphaProMega" rel="noopener noreferrer" target="_blank">Sherif on X<span class="sr-only"> (opens in a new tab)</span></a></p>
         <p>Independent of xAI.</p>
-        <p><a href="https://acitygames.com/" rel="noopener noreferrer" target="_blank">acitygames.com<span class="sr-only"> (opens in a new tab)</span></a></p>
+        <p class="footer-channels"><a href="https://acitygames.com/" rel="noopener noreferrer" target="_blank">acitygames.com<span class="sr-only"> (opens in a new tab)</span></a> <a href="https://rathor.ai/" rel="noopener noreferrer" target="_blank">rathor.ai<span class="sr-only"> (opens in a new tab)</span></a></p>
       </div>
     </div>
   </footer>
