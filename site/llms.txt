@@ -18,6 +18,15 @@
 - Repository: https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO
 - From the studio behind Powrush: https://acitygames.com (Autonomicity Games Inc.) and https://rathor.ai
 
+## Peoples & leaders
+
+- World: a fractured Earth, with magma islands and a scarred moon.
+- Quellorians: luminous ancient aliens whose lost homeworld had two suns. Led by High Luminar Solmaris Orynthe (sol-MAR-is). They belong to the Luminari Alliance (mothership TAUN), which opposes the Draek Dominion.
+- Draeks: biomechanical aliens. The Draek Dominion is ruled by the Hivelord, whose true name is unknown. Freed Draeks follow the Unbound.
+- Humans: survivors caught between two cosmic powers. Led by Warden Ronan Ashcroft.
+- Cydruids: druids who chose to become cyborgs, humans and machines merged as one. They live in an upside-down stalactite city deep in Earth’s hollows, always burrowing, and harvest with care. Led by Archdruid Orin Hollowell.
+- Ambrosians: living crystal, tuned to harmony. Led by Lyrisse, Voice of the Prism Choir.
+
 ## Contact
 
 - info@Rathor.ai
