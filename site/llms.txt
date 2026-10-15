@@ -1,24 +1,23 @@
 # Powrush
 
-> Powrush-MMO is a universe of many worlds and peoples, from Autonomicity Games Inc. Take everything and the glow fades. Share it, and the climate comes back. PC and Linux get the full game. Offline Windows and Linux builds exist. An itch.io early access is in preparation and is not live; this site does not link it. Online play is planned, with no date and no promises. There’s no Steam page. The engine is Bevy 0.20. Powrush has been in the works since 2016 (https://acitygames.com/powrush.html). https://powrush.com is the game site. https://acitygames.com is the company site. https://rathor.ai is the AGI system site.
+> The Powrush universe holds many worlds and peoples. It is from Autonomicity Games Inc. Take everything and the glow fades. Share it, and the climate comes back. Windows and Linux get the full game. Offline Windows and Linux builds exist. Early access is coming soon and is not live; this site does not link it. Online play is planned, with no date and no promises. There’s no Steam page. The engine is Bevy 0.20. Powrush has been in the works since 2016 (https://acitygames.com/powrush.html). https://powrush.com is the game site. https://acitygames.com is the company site. https://rathor.ai is the AGI system site.
 
 ## Pages
 
 - Home: https://powrush.com/
-- World: https://powrush.com/world.html
+- Universe: https://powrush.com/world.html
 - Systems: https://powrush.com/systems.html
 - Play: https://powrush.com/play.html
 
 ## Status
 
-- Offline Windows and Linux builds exist. Play on this site is not a download. An itch.io early access is in preparation and is not live.
+- Offline Windows and Linux builds exist. Play on this site is not a download. Early access is coming soon and is not live.
 - Online play is planned, with no date and no promises.
 - You and one machine. Offline first.
-- Powrush-MMO is a universe of many worlds and peoples. Five peoples are written here, and the offline hour has four places to land. The yard is one well you can walk.
+- The Powrush universe holds many worlds and peoples. Five peoples are written here. Landings include Sanctuary, Heartwood, Threshold, and the Depths, and that list is not closed. The yard is one well you can walk.
 - Walk a living climate. Harvest with mercy. Learn a resource-based economy by playing it. It’s a lesson, not a wage.
-- Repository: https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO
 - From the studio behind Powrush: https://acitygames.com (Autonomicity Games Inc., the company site) and https://rathor.ai (the AGI system site).
-- The Ra-Thor trademark belongs to Autonomicity Games Inc. Ra-Thor Living Thunder comics are by AlphaProMega Media Inc.
+- Ra-Thor™ is a trademark of Autonomicity Games Inc. Ra-Thor Living Thunder comics are by AlphaProMega Media Inc.
 
 ## Peoples & leaders
 
