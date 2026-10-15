@@ -1,7 +1,9 @@
 name: Deploy GitHub Pages
 
-# The push trigger gets added when GitHub Pages is switched on.
+# Deploys on every push to main; can also be run by hand.
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
