@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Systems — Powrush</title>
-  <meta name="description" content="What you actually do in Powrush’s offline first hour, from walking and harvesting to founding a House. Every system links its source file. Online play isn’t available yet.">
+  <meta name="description" content="The offline Powrush-MMO hour: walk, harvest, tend, and allocate. The engine is Bevy 0.20. Online play is planned, with no date and no promises.">
   <meta name="theme-color" content="#12110e" media="(prefers-color-scheme: dark)">
   <meta name="theme-color" content="#f7e7de" media="(prefers-color-scheme: light)">
   <link rel="canonical" href="https://powrush.com/systems.html">
@@ -56,7 +56,7 @@
           <div class="wrap">
             <p class="kicker">In the build today</p>
             <h1>Systems</h1>
-            <p class="lede">You and one machine. Offline first. Online play isn’t available yet.</p>
+            <p class="lede">You and one machine. Offline first. Online play is planned, with no date and no promises.</p>
           </div>
         </div>
       </div>
@@ -65,7 +65,7 @@
     <div class="sheet-wrap">
       <div class="wrap sheet">
         <h2>Your first hour</h2>
-        <p>Powrush-MMO is in active development. The current build is offline and single-player. Online play isn’t available yet. There’s no Steam page and no release date, and it isn’t a public launch candidate. Here’s what’s actually in it.</p>
+        <p>Powrush-MMO is a universe of many worlds and peoples, in active development. The engine is Bevy 0.20. PC and Linux get the full game. Offline Windows and Linux builds exist. What follows is the offline build on your machine. Online play is planned, with no date and no promises. There’s no Steam page. An itch.io early access is in preparation. It is not live. Here’s what the offline hour actually does.</p>
         <p>The default game in the <a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO" rel="noopener noreferrer" target="_blank">Powrush-MMO<span class="sr-only"> (opens in a new tab)</span></a> repository is the first hour. Hours one and two are code-complete, and hours 1–3 are on main. Everything below comes from the README and the docs, and every card links its source file on main, so you can check us. The full plugin list is <a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/lib.rs" rel="noopener noreferrer" target="_blank">client/src/lib.rs<span class="sr-only"> (opens in a new tab)</span></a>.</p>
       </div>
     </div>
@@ -78,7 +78,7 @@
         <div class="systems">
           <article class="system">
             <h2>The title screen</h2>
-            <p>Play, Continue, Settings. Come back to a local save and Continue greets your House by name, or as Unnamed House, with “the yard remembers.” Naming your House is optional. The Online option is greyed out, because online play isn’t available yet.</p>
+            <p>Play, Continue, Settings. Come back to a local save and Continue greets your House by name, or as Unnamed House, with “the yard remembers.” Naming your House is optional. The Online option is greyed out, because online play is planned, with no date and no promises.</p>
             <ul class="sources">
             <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/title_screen.rs" rel="noopener noreferrer" target="_blank">client/src/title_screen.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
           </ul>
@@ -173,17 +173,17 @@
           </ul>
           </article>
           <article class="system">
-            <h2>Online? Not yet.</h2>
-            <p>The default is Offline. No dedicated server needed. And no fake “12 players online.” <code>POWRUSH_NET</code> is off by default, with zero sockets. Settings LAN is off, or loopback, and loopback means 127.0.0.1 only. It never switches on the Online option on the title screen, and it never opens a public connection. Ra-Thor may read a record of your hour. It never touches your keys.</p>
+            <h2>Online is planned</h2>
+            <p>The default is Offline. No dedicated server needed. And no fake “12 players online.” <code>POWRUSH_NET</code> is off by default, with zero sockets. Settings LAN is off, or loopback, and loopback means 127.0.0.1 only. It never switches on the Online option on the title screen, and it never opens a public connection. Online play is planned, with no date and no promises. Ra-Thor may read a record of your hour. It never touches your keys. Ra-Thor is the AGI system. The Ra-Thor trademark belongs to Autonomicity Games Inc. Ra-Thor Living Thunder comics are by AlphaProMega Media Inc.</p>
             <ul class="sources">
             <li><a href="https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO/blob/main/client/src/net_mode.rs" rel="noopener noreferrer" target="_blank">client/src/net_mode.rs<span class="sr-only"> (opens in a new tab)</span></a></li>
           </ul>
           </article>
           <article class="system">
             <h2>Not in your first hour</h2>
-            <p>No NFTs or chain mints. No payments. No second HUD. No fake players. No switching on online play from the title screen, and no public connection. No Market, and you don’t start in Depths.</p>
+            <p>No payments. No second HUD. No fake players. No switching on online play from the title screen, and no public connection. No Market, and you don’t start in Depths.</p>
             <p>Some code is parked on disk and isn’t part of the default game: <code>server/</code>, <code>simulation/</code>, <code>host/</code>, <code>game/</code>, <code>powrush-divine-module/</code>, and <code>powrush-shard/</code>. The shard listener is a local dev recipe only. <code>payments/</code> stays out of the first hour. Steam packaging is parked, and there’s no Steam page.</p>
-            <p>Want the lore of the five peoples and four places? That’s on <a href="world.html">World</a>. <a href="play.html">Play</a> on this site is coming later.</p>
+            <p>Want the wider universe, and the five peoples written so far? That’s on <a href="world.html">World</a>. <a href="play.html">Play</a> says where the offline builds stand. Online play is planned, with no date and no promises.</p>
           </article>
         </div>
       </div>

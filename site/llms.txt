@@ -1,6 +1,6 @@
 # Powrush
 
-> Powrush is a game from Autonomicity Games Inc. Take everything and the glow fades. Share it, and the climate comes back. The current build is offline and single-player, and it’s in active development. Online play isn’t available yet. There’s no Steam page and no release date. It isn’t a public launch candidate. Powrush has been in the works since 2016 (https://acitygames.com/powrush.html). This site is https://powrush.com. The company site is https://acitygames.com.
+> Powrush-MMO is a universe of many worlds and peoples, from Autonomicity Games Inc. Take everything and the glow fades. Share it, and the climate comes back. PC and Linux get the full game. Offline Windows and Linux builds exist. An itch.io early access is in preparation and is not live; this site does not link it. Online play is planned, with no date and no promises. There’s no Steam page. The engine is Bevy 0.20. Powrush has been in the works since 2016 (https://acitygames.com/powrush.html). https://powrush.com is the game site. https://acitygames.com is the company site. https://rathor.ai is the AGI system site.
 
 ## Pages
 
@@ -11,18 +11,20 @@
 
 ## Status
 
-- Play on this site is coming later. Online play isn’t available yet.
+- Offline Windows and Linux builds exist. Play on this site is not a download. An itch.io early access is in preparation and is not live.
+- Online play is planned, with no date and no promises.
 - You and one machine. Offline first.
-- The yard is the whole universe, shrunk to the size of a well. The wider story has five peoples and a stone.
+- Powrush-MMO is a universe of many worlds and peoples. Five peoples are written here, and the offline hour has four places to land. The yard is one well you can walk.
 - Walk a living climate. Harvest with mercy. Learn a resource-based economy by playing it. It’s a lesson, not a wage.
 - Repository: https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO
-- From the studio behind Powrush: https://acitygames.com (Autonomicity Games Inc.) and https://rathor.ai
+- From the studio behind Powrush: https://acitygames.com (Autonomicity Games Inc., the company site) and https://rathor.ai (the AGI system site).
+- The Ra-Thor trademark belongs to Autonomicity Games Inc. Ra-Thor Living Thunder comics are by AlphaProMega Media Inc.
 
 ## Peoples & leaders
 
-- World: a fractured Earth, with magma islands and a scarred moon.
+- One world in the universe is a fractured Earth, with magma islands and a scarred moon.
 - Quellorians: luminous ancient aliens whose lost homeworld had two suns. Led by High Luminar Solmaris Orynthe (sol-MAR-is). They belong to the Luminari Alliance (mothership TAUN), which opposes the Draek Dominion.
-- Draeks: biomechanical aliens. The Draek Dominion is ruled by the Hivelord, whose true name is unknown. Freed Draeks follow Vrendak the Unbound (VREN-dak), who was once the Drainer and broke free.
+- Draeks: hard-plated chitin humanoids. The Draek Dominion is ruled by the Hivelord, whose true name is unknown. Freed Draeks follow Vrendak the Unbound (VREN-dak), who was once the Drainer and broke free.
 - Humans: survivors caught between two cosmic powers. Led by Warden Ronan Ashcroft.
 - Cydruids: druids who chose to become cyborgs, humans and machines merged as one. They live in an upside-down stalactite city deep in Earth’s hollows, always burrowing, and harvest with care. Led by Archdruid Orin Hollowell.
 - Ambrosians: living crystal, tuned to harmony. Led by Lyrisse, Voice of the Prism Choir.
