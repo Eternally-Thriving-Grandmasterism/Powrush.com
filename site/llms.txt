@@ -7,7 +7,7 @@
 - Home: https://powrush.com/
 - Universe: https://powrush.com/world.html
 - Systems: https://powrush.com/systems.html
-- Play: https://powrush.com/play.html
+- The Game: https://powrush.com/play.html
 
 ## Status
 
@@ -17,7 +17,7 @@
 - The Powrush universe holds many worlds and peoples. Five peoples are written here. Landings include Sanctuary, Heartwood, Threshold, and the Depths, and that list is not closed. The yard is one well you can walk.
 - Walk a living climate. Harvest with mercy. Learn a resource-based economy by playing it. It’s a lesson, not a wage.
 - From the studio behind Powrush: https://acitygames.com (Autonomicity Games Inc., the company site) and https://rathor.ai (the AGI system site).
-- AlphaProMega is a trademark of AlphaProMega Media Inc. Powrush, Autonomicity Games and the Autonomicity Games logo are trademarks of Autonomicity Games Inc. The Ra-Thor trademark is pending. The Ra-Thor: Living Thunder comics are copyright Sherif Botros, published and sold by Autonomicity Games Inc.
+- AlphaProMega is a trademark of AlphaProMega Media Inc. Powrush, Autonomicity Games and the Autonomicity Games logo are trademarks of Autonomicity Games Inc. Ra-Thor™ is a trademark of Autonomicity Games Inc. (application pending). The Ra-Thor: Living Thunder comics are copyright Sherif Botros, published and sold by Autonomicity Games Inc.
 
 ## Peoples & leaders
 
